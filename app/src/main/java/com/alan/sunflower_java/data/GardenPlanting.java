@@ -52,7 +52,7 @@ public class GardenPlanting {
 
     @PrimaryKey(autoGenerate = true)
     @ColumnInfo(name = "id")
-    Long gardenPlantingId = 0l;
+    Long gardenPlantingId;
 
     public GardenPlanting(String plantId) {
         this.plantId = plantId;
